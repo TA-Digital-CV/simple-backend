@@ -1,0 +1,23 @@
+name: Sync to GitLab
+
+on:
+  push:
+    branches:
+      - main # ou a branch que deseja sincronizar
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source repo
+        uses: actions/checkout@v4
+
+      - name: Configure Git
+        run: |
+          git config --global user.name "${{ secrets.GIT_USER }}"
+          git config --global user.email "${{ secrets.GIT_EMAIL }}"
+
+      - name: Push to GitLab
+        run: |
+          git remote add gitlab ${{ secrets.DEST_REPO }}
+          git push --force gitlab HEAD:main
