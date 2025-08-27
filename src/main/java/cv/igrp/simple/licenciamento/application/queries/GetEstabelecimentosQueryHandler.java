@@ -1,9 +1,9 @@
 package cv.igrp.simple.licenciamento.application.queries;
 
 import cv.igrp.simple.licenciamento.application.dto.WrapperListaEstabelecimentoDTO;
-import cv.igrp.simple.licenciamento.domain.licenciamento_comercial.filter.EstabelecimentoFilter;
-import cv.igrp.simple.licenciamento.domain.licenciamento_comercial.models.Estabelecimento;
-import cv.igrp.simple.licenciamento.domain.licenciamento_comercial.repository.EstabelecimentoRepository;
+import cv.igrp.simple.licenciamento.domain.filter.EstabelecimentoFilter;
+import cv.igrp.simple.licenciamento.domain.models.Estabelecimento;
+import cv.igrp.simple.licenciamento.domain.repository.EstabelecimentoRepository;
 import cv.igrp.simple.licenciamento.infrastructure.mappers.EstabelecimentoMapper;
 import cv.igrp.simple.shared.application.constants.Estado;
 import org.slf4j.Logger;

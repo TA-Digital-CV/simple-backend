@@ -1,6 +1,6 @@
 package cv.igrp.simple.licenciamento.application.queries;
 
-import cv.igrp.simple.licenciamento.domain.licenciamento_comercial.repository.TipoAtividadeRepository;
+import cv.igrp.simple.licenciamento.domain.repository.TipoAtividadeRepository;
 import cv.igrp.simple.licenciamento.infrastructure.mappers.TipoAtividadeMapper;
 import cv.igrp.simple.shared.domain.exceptions.IgrpResponseStatusException;
 import cv.igrp.simple.shared.domain.valueobject.Identificador;

@@ -1,8 +1,8 @@
 package cv.igrp.simple.licenciamento.application.queries;
 
-import cv.igrp.simple.licenciamento.domain.licenciamento_comercial.filter.LicencaComercialFilter;
-import cv.igrp.simple.licenciamento.domain.licenciamento_comercial.models.LicencaComercial;
-import cv.igrp.simple.licenciamento.domain.licenciamento_comercial.repository.LicencaComercialRepository;
+import cv.igrp.simple.licenciamento.domain.filter.LicencaComercialFilter;
+import cv.igrp.simple.licenciamento.domain.models.LicencaComercial;
+import cv.igrp.simple.licenciamento.domain.repository.LicencaComercialRepository;
 import cv.igrp.simple.licenciamento.infrastructure.mappers.LicencaComercialMapper;
 import cv.igrp.simple.shared.application.constants.EstadoLicenca;
 import cv.igrp.simple.shared.domain.valueobject.Identificador;
